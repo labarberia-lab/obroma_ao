@@ -1,0 +1,26 @@
+/* PrivacySettings.css */
+.privacy-settings {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .privacy-settings label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .privacy-settings button {
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .privacy-settings button:hover {
+    background-color: #45a049;
+  }
+  

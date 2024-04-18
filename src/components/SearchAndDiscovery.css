@@ -1,0 +1,33 @@
+/* SearchAndDiscovery.css */
+.search-and-discovery {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .search-and-discovery form {
+    margin-bottom: 1rem;
+  }
+  
+  .search-and-discovery input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  
+  .search-and-discovery button {
+    width: 100px;
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .search-and-discovery button:hover {
+    background-color: #45a049;
+  }
+  

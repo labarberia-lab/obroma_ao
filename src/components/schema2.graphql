@@ -1,0 +1,35 @@
+# schema.graphql
+
+type Message {
+  id: ID!
+  sender: User!
+  receiver: User!
+  content: String!
+  createdAt: String!
+}
+
+type Comment {
+  id: ID!
+  user: User!
+  post: Post!
+  content: String!
+  createdAt: String!
+}
+
+type Post {
+  id: ID!
+  user: User!
+  content: String!
+  comments: [Comment]!
+  createdAt: String!
+}
+
+type Query {
+  getPost(id: ID!): Post!
+}
+
+type Mutation {
+  sendMessage(senderId: ID!, receiverId: ID!, content: String!): Message!
+  addComment(userId: ID!, postId: ID!, content: String!): Comment!
+  createPost(userId: ID!, content: String!): Post!
+}

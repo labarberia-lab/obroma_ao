@@ -1,0 +1,16 @@
+/* Notifications.css */
+.notifications {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .notifications .notification {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  

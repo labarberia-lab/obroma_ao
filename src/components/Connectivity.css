@@ -1,0 +1,19 @@
+/* Connectivity.css */
+.connectivity {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .connectivity .user-card {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  
+  .connectivity .user-card:hover {
+    background-color: #f5f5f5;
+  }
+  

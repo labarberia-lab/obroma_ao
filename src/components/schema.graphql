@@ -1,0 +1,19 @@
+# schema.graphql
+
+type User {
+  id: ID!
+  username: String!
+  followers: [User]!
+  following: [User]!
+}
+
+type Query {
+  getUser(id: ID!): User!
+}
+
+type Mutation {
+  followUser(userId: ID!): User!
+  unfollowUser(userId: ID!): User!
+  sendFriendRequest(userId: ID!): User!
+  acceptFriendRequest(userId: ID!): User!
+}

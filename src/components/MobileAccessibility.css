@@ -1,0 +1,21 @@
+/* MobileAccessibility.css */
+.mobile-accessibility {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .mobile-accessibility .feature {
+    margin-bottom: 1rem;
+  }
+  
+  .mobile-accessibility .feature h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .mobile-accessibility .feature p {
+    color: #666;
+  }
+  
