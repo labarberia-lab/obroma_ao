@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Obroma Social
+
+Obroma Social is a React application leveraging AOConnect to interact with Arweave's decentralized features.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+- [eltio.eth](https://github.com/eltioeth)
+- [Hashlips](https://github.com/hashlips)
