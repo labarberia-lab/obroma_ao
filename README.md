@@ -75,8 +75,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 - [eltio.eth](https://github.com/eltioeth)
 - [Hashlips](https://github.com/hashlips)
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 2fed9dd4a8a7cafaf43e9d69a273f26ed4c5edde
