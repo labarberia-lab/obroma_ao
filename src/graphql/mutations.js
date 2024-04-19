@@ -1,5 +1,3 @@
-// mutations.js
-
 import { gql } from '@apollo/client';
 
 export const UPDATE_PRIVACY_SETTINGS_MUTATION = gql`

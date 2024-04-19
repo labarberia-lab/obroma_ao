@@ -1,5 +1,3 @@
-// src/graphql/queries.js
-
 import { gql } from '@apollo/client';
 
 export const SEARCH_USERS_QUERY = gql`
@@ -8,7 +6,6 @@ export const SEARCH_USERS_QUERY = gql`
       id
       name
       email
-      // Add other user fields as needed
     }
   }
 `;
@@ -19,7 +16,6 @@ export const SEARCH_CONTENT_QUERY = gql`
       id
       title
       body
-      // Add other content fields as needed
     }
   }
 `;
