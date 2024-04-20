@@ -182,8 +182,11 @@ Handlers.add(
         local userId = msg.From
         local userData = msg.Tags.UserData
 
+        -- Parse the user data JSON string into a Lua table
+        local userDataTable = json.decode(userData)
+
         -- Store user data
-        Users[userId] = json.decode(userData)
+        Users[userId] = userDataTable
 
         -- Respond to the user
         return {
