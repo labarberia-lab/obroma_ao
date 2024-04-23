@@ -21,6 +21,16 @@ end
 Posts = Posts or {}
 Replies = Replies or {}
 
+-- Get Users
+Handlers.add(
+    "GetUsers",
+    hasMatchingTag("Action", "GetUsers"),
+    function(msg)
+        Handlers.utils.reply(json.encode(Users))(msg)
+    end
+)
+
+
 -- Add handlers for different actions
 Handlers.add(
     "GetPosts",
@@ -188,15 +198,6 @@ Handlers.add(
         -- Store user data
         Users[userId] = userDataTable
 
-        -- Respond to the user
-        return {
-            Messages = {
-                {
-                    Target = userId,
-                    Tags = { Action = 'UserRegistered', UserData = userData }
-                }
-            }
-        }
     end
 )
 
